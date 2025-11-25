@@ -1,0 +1,21 @@
+{
+  "name": "nursing-hub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "firebase": "9.22.1",
+    "firebase-admin": "^11.12.0",
+    "pdf-parse": "^1.1.1",
+    "openai": "^4.11.0",
+    "node-fetch": "^3.3.2",
+    "next": "13.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "busboy": "^1.6.0"
+  }
+}
